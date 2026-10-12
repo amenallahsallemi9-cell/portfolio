@@ -401,6 +401,8 @@ img { display: block; max-width: 100%; }
 .work-grid[data-count="2"] { --cols: 2; --rows: 1; }
 .work-grid[data-count="3"],
 .work-grid[data-count="4"] { --cols: 2; --rows: 2; }
+.work-grid[data-count="7"],
+.work-grid[data-count="8"] { --cols: 4; --rows: 2; }
 
 .project-card {
   display: flex;
